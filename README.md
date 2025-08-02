@@ -178,3 +178,5 @@ You can also run the simulation using Docker, which ensures a consistent environ
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date" />
  </picture>
 </a>
+
+## If you like this project, consider giving it a ⭐ to show your support!
