@@ -24,7 +24,7 @@ This project features the simulation of a custom vehicle with **Ackermann steeri
 - [TF Tree](#tf-tree)
 - [Star History](#star-history)
 
-
+### If you like this project, consider giving it a ⭐ to show your support!
 ## Features
 
 ### 1. **Ackermann Steering**
@@ -168,8 +168,6 @@ You can also run the simulation using Docker, which ensures a consistent environ
     [![Autonomus Navigation - Youtube](https://img.youtube.com/vi/SJ4NrbdlNZo/0.jpg)](https://www.youtube.com/watch?v=SJ4NrbdlNZo "NAV2")
 
 > **Note:** The YouTube videos above are played at 4x speed. You can reach the videos by click on the images.
-
-## If you like this project, consider giving it a ⭐ to show your support!
 
 ## Future Work
 
