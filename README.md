@@ -2,6 +2,9 @@
 
 This project features the simulation of a custom vehicle with **Ackermann steering capabilities**, developed using **ROS2** and the **Gazebo Sim Harmonic environment**. The model integrates a variety of sensors and navigation tools for autonomous operation, making it one of the first implementations of an Ackermann steering vehicle in this simulation framework.
 
+| **3D LiDAR Point Cloud Visualization** | **Warehouse Environment Model** |
+| ----- | ----- |
+| ![3D Point Cloud](saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](saye_msgs/readme_files/warehouse_environment.png) |
 ## Table of Contents
 
 - [Ackermann Steering Vehicle Simulation in ROS2 with Gazebo Sim Harmonic](#ackermann-steering-vehicle-simulation-in-ros2-with-gazebo-sim-harmonic)
@@ -39,7 +42,7 @@ This project features the simulation of a custom vehicle with **Ackermann steeri
 
 - **IMU**: Provides orientation and angular velocity.
 - **Odometry**: Ensures accurate vehicle state feedback.
-- **LiDAR**: Mounted for obstacle detection and environmental scanning.
+- **LiDAR**: Mounted for obstacle detection and environmental scanning. Supports 3D point cloud generation for advanced perception tasks.
 - **Cameras**:
   - Front-facing
   - Rear-facing
@@ -179,6 +182,14 @@ You can also run the simulation using Docker, which ensures a consistent environ
 ## Gallery
 
 ![Screenshot from 2024-09-23 00-09-48.png](https://github.com/user-attachments/assets/dd5604c6-014e-4a7a-9a2f-c4dd237abb37)
+
+### 3D LiDAR Point Cloud & Environment
+
+| **3D LiDAR Point Cloud Visualization**                             | **Warehouse Environment Model**                                   |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![3D Point Cloud](saye_msgs/readme_files/3d_lidar_pointcloud.png) | ![Warehouse Model](saye_msgs/readme_files/warehouse_environment.png) |
+
+### Vehicle & Navigation
 
 | **Gazebo Sim Harmonic**                                                                                                     | **RViz2**                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
