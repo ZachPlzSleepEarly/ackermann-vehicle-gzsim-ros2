@@ -79,19 +79,19 @@
     <include>
       <name>A_letter</name>
       <pose>-3 24.94 4.0 1.57 0 0 </pose>
-      <uri>/home/tekes/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/models/A_letter</uri>
+      <uri>model://saye_description/models/A_letter</uri>
     </include>
 
     <include>
       <name>I_letter</name>
       <pose>3 24.94 4.0 1.57 0 0 </pose>
-      <uri>/home/tekes/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/models/I_letter</uri>
+      <uri>model://saye_description/models/I_letter</uri>
     </include>
 
     <include>
       <name>L_letter</name>
       <pose>0 24.94 4.0 1.57 0 0 </pose>
-      <uri>/home/tekes/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/saye_description/models/L_letter</uri>
+      <uri>model://saye_description/models/L_letter</uri>
     </include>
 
   </world>
