@@ -76,6 +76,13 @@ def generate_launch_description():
             '-z', '0.35'
         ]
     )
+
+    rqt_robot_steering = Node(
+        package='rqt_robot_steering',
+        executable='rqt_robot_steering',
+        output='screen'
+    )
+
     return LaunchDescription([
         gz_sim,
         gz_spawn_entity,
@@ -83,5 +90,6 @@ def generate_launch_description():
                               description='Open RViz.'),
         bridge,
         robot_state_publisher,
-        rviz
+        rviz,
+        rqt_robot_steering
     ])
