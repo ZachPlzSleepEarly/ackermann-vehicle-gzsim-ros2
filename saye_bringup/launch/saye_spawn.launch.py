@@ -25,14 +25,15 @@ def generate_launch_description():
         robot_desc = infp.read()
 
     # Setup to launch the simulator and Gazebo world
+    world_file = PathJoinSubstitution([pkg_project_description, 'worlds', 'saye_world.sdf'])
+    gz_args: str = ['-r ', world_file]
     gz_sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
-        launch_arguments={'gz_args': PathJoinSubstitution([
-            pkg_project_description,
-            'worlds',
-            'saye_world.sdf'
-        ])}.items(),
+            os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
+        ),
+        launch_arguments={
+            'gz_args': gz_args
+        }.items(),
     )
 
     # Takes the description and joint angles as inputs and publishes the 3D poses of the robot links
